@@ -1,5 +1,6 @@
-. {
-  
+body{
+  width: 100%;
+  margin: 0;
 }
 h2 {
   font-size: 50px;
@@ -12,6 +13,7 @@ h2 {
   padding-top: 20px;
   opacity: 64%;
   line-height: 20px;
+  width: 92.5%;
 }
 
 .header h1 {
@@ -30,9 +32,11 @@ h2 {
 
 /* Add a black background color to the top navigation */
 .topnav {
+  margin-top: 10px;
   position: relative;
   background-color: white;
   overflow: hidden;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -152,11 +156,37 @@ h2 {
 
 
   /* Services */
-  .service-boxes {
-    background: #D3D3D3;
-    color: #333;
-    margin-left: 50px;
-    width: 20%;
-    height: 300px;
 
-  }
+.box1{
+  background: #D3D3D3;
+  color: #333;
+  margin-left: 50px;
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+}
+.box2{
+  background: #D3D3D3;
+  margin-left: 45px;
+  width: 20%;
+  height: 300px;
+
+  display: inline-block;
+}
+.box3{
+  background: #D3D3D3;
+  color: #333;
+  margin-left: 45px;
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+
+}
+.box4{
+  background: #D3D3D3;
+  color: #333;
+  margin-left: 45px;
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+}
