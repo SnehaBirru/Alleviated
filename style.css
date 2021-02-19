@@ -1,82 +1,3 @@
-body{
-  width: 100%;
-  margin: 0;
-}
-h2 {
-  font-size: 50px;
-}
-
-.header {
-  margin:25px 50px 0px 50px;
-  height: 200px;
-  background-color: #9DC183;
-  padding-top: 20px;
-  opacity: 64%;
-  line-height: 20px;
-  width: 92.5%;
-}
-
-.header h1 {
-  font-size: 75px;
-}
-.header h3 {
-  font-size: 25px;
-}
-
-/* #What {
-  width: 30%;
-  height: 300px;
-  background-color: grey;
-  margin: 50px;
-} */
-
-/* Add a black background color to the top navigation */
-.topnav {
-  margin-top: 10px;
-  position: relative;
-  background-color: white;
-  overflow: hidden;
-  width: 100%;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #333;
-  text-align: center;
-  padding: 14px 25px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-/* Centered section inside the top navigation */
-.topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
-}
-
-/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-@media screen and (max-width: 600px) {
 /* Add a black background color to the top navigation */
 .topnav {
   position: relative;
@@ -227,51 +148,53 @@ h2 {
   }
   
   #section2 {
-    height: 600px;
+    height: 1000px;
     background-color: #D3D3D3;
-  }
+      padding-top: 0.5px;
+      background: #D3D3D3;
+      color: #333;
+      width: 100%;
+      height: 555px;
+    }
 
-  /* Mission Statement */
-  .mission {
-    padding-top: 0.5px;
+    .service-boxes {
+      background: #D3D3D3;
+      color: #333;
+      margin-left: 50px;
+      width: 20%;
+      height: 300px;
+  
+    }
+  .box1{
     background: #D3D3D3;
     color: #333;
-    width: 100%;
-    height: 555px;
+    margin-left: 50px;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
   }
-
-  /* Services */
-
-.box1{
-  background: #D3D3D3;
-  color: #333;
-  margin-left: 50px;
-  width: 20%;
-  height: 300px;
-  display: inline-block;
-}
-.box2{
-  background: #D3D3D3;
-  margin-left: 45px;
-  width: 20%;
-  height: 300px;
-
-  display: inline-block;
-}
-.box3{
-  background: #D3D3D3;
-  color: #333;
-  margin-left: 45px;
-  width: 20%;
-  height: 300px;
-  display: inline-block;
-}
-
-.box4{
-  background: #D3D3D3;
-  color: #333;
-  margin-left: 45px;
-  width: 20%;
-  height: 300px;
-  display: inline-block;
-}
+  .box2{
+    background: #D3D3D3;
+    margin-left: 45px;
+    width: 20%;
+    height: 300px;
+  
+    display: inline-block;
+  }
+  .box3{
+    background: #D3D3D3;
+    color: #333;
+    margin-left: 45px;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+  
+  }
+  .box4{
+    background: #D3D3D3;
+    color: #333;
+    margin-left: 45px;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+  }
