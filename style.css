@@ -146,7 +146,7 @@
     height: 1000px;
     background-color: white;
   }
-  
+
   #section2 {
     height: 1000px;
     background-color: #D3D3D3;
@@ -196,7 +196,7 @@
     display: inline-block;
     font-size: 45px;
     text-align: center;
-  
+
   }
   .box4{
     background: #D3D3D3;
@@ -219,3 +219,6 @@
       width: 100%;
       font-size: 45px;
     }
+  @media screen and (max-width: 1250px) {
+
+  }
