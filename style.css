@@ -87,9 +87,10 @@ h2 {
 .header1 h1 {
   font-size: 75px;
 }
-.header1 p {
+.header1 p{
   font-size: 25px;
   text-align: center;
+
 }
 
 .header2 {
@@ -100,9 +101,11 @@ h2 {
   display: inline-block;
 
 }
-.header2 p{
+.header2 a{
   font-size: 25px;
   text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 .header3 {
@@ -113,9 +116,11 @@ h2 {
   display: inline-block;
 
 }
-.header3 p{
+.header3 a{
   font-size: 25px;
   text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 .header4 {
@@ -126,7 +131,7 @@ h2 {
   display: inline-block;
 
 }
-.header4 p{
+.header4 a{
   font-size: 20px;
   text-align: center;
 }
