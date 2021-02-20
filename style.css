@@ -1,8 +1,21 @@
+body{
+  width: 100%;
+  margin: 0;
+}
+h2 {
+  font-size: 50px;
+  padding-top: 20px;
+  opacity: 64%;
+  line-height: 20px;
+  width: 92.5%;
+}
 /* Add a black background color to the top navigation */
 .topnav {
+  margin-top: 10px;
   position: relative;
   background-color: white;
   overflow: hidden;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -12,7 +25,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -36,6 +49,11 @@
   transform: translate(-50%, -50%);
 }
 
+.topnav img {
+  width: 80px;
+  height: 60px
+}
+
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
@@ -57,6 +75,149 @@
 }
 
 .header1 {
+  margin: 20px 50px 40px 50px;
+  height: 200px;
+  background-color: #9DC183;
+  padding-top: 20px;
+  opacity: 64%;
+  line-height: 20px;
+}
+
+.header1 h1 {
+  font-size: 75px;
+}
+.header1 p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.header2 {
+  width: 20%;
+  height: 300px;
+  background-color: #D3D3D3;
+  margin-left: 70px;
+  display: inline-block;
+
+}
+.header2 p{
+  font-size: 25px;
+  text-align: center;
+}
+
+.header3 {
+  width: 20%;
+  height: 300px;
+  background-color: #D3D3D3;
+  margin-left: 180px;
+  display: inline-block;
+
+}
+.header3 p{
+  font-size: 25px;
+  text-align: center;
+}
+
+.header4 {
+  width: 20%;
+  height: 300px;
+  background-color: #D3D3D3;
+  margin-left: 180px;
+  display: inline-block;
+
+}
+.header4 p{
+  font-size: 20px;
+  text-align: center;
+}
+
+.image1 {
+    width: 200px;
+    margin: 10px 10px 10px 22px;
+  display: block;
+  }
+
+  .image2 {
+    width: 200px;
+    margin: 10px 10px 10px 22px;
+  display: block;
+  }
+
+  .image3 {
+    width: 200px;
+    margin: 10px 10px 10px 22px;
+  display: block;
+  }
+
+/* section 3 */
+.mission {
+  margin: 40px 0px 40px;
+  width: 100%;
+  height: 500px;
+  background-color: #D3D3D3;
+  text-align: center;
+}
+
+/* services */
+.box1{
+  background: #D3D3D3;
+  color: #333;
+  margin-left: 50px;
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+}
+.box2{
+  background: #D3D3D3;
+  margin-left: 45px;
+  width: 20%;
+  height: 300px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+}
+.box3{
+  background: #D3D3D3;
+  color: #333;
+  margin-left: 45px;
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+
+}
+.box4{
+  background: #D3D3D3;
+  color: #333;
+  margin-left: 45px;
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+}
+
+.box1 p{
+  font-size: 25px;
+}
+
+#section4 {
+  margin-top: 40px;
+  width: 100%;
+  height: 400px;
+  background: #D3D3D3;
+
+}
+
+#section4 p{
+  font-size: 30px;
+}
+
+
+
+/* .header1 {
     padding: 60px;
     text-align: center;
     background: #9AC791;
@@ -146,7 +307,7 @@
     height: 1000px;
     background-color: white;
   }
-  
+
   #section2 {
     height: 1000px;
     background-color: #D3D3D3;
@@ -158,7 +319,7 @@
       font-size: 15px;
     }
 
-    /*Section 3 */
+    /*Section 3
   .services {
     color: #333;
     margin-left: 50px;
@@ -196,7 +357,7 @@
     display: inline-block;
     font-size: 45px;
     text-align: center;
-  
+
   }
   .box4{
     background: #D3D3D3;
@@ -218,4 +379,4 @@
       color: #333;
       width: 100%;
       font-size: 45px;
-    }
+    } */
