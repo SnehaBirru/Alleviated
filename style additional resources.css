@@ -100,11 +100,22 @@ a{
     .header2 {
     margin-top: -50px;
     margin-bottom: 20px;
-    margin-right: -50px;
-    margin-left: 80px;
+    margin-right: 50px;
+    margin-left: 80px; 
     font-size: 50px;
     color: #333;
+    
     }
+
+    .header3 {
+      margin-top: -50px;
+      margin-bottom: 0px;
+      margin-right: 50px;
+      margin-left: 130px; 
+      font-size: 50px;
+      color: #333;
+      
+      }
 
     .box1{
         background: #D3D3D3;
